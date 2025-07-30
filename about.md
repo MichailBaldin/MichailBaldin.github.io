@@ -1,15 +1,28 @@
 ---
 layout: page
-title: About
+title: О блоге
 permalink: /about/
 ---
 
-Some information about you!
+# О блоге
 
-### More Information
+Привет! Это блог о создании пет-проекта на Go.
 
-A place to include any other types of information that you'd like to include about yourself.
+## Что здесь будет
 
-### Contact me
+Документирую процесс разработки backend приложения:
 
-[email@domain.com](mailto:email@domain.com)
+- Выбор технологий и архитектуры
+- Проблемы и их решения
+- Полезные находки в процессе
+- Итоговый результат
+
+## Стек проекта
+
+**Backend:** Go, PostgreSQL, Redis  
+**Deploy:** Docker, GitHub Actions
+
+## Контакты
+
+📧 [michailbaldin@gmail.com](mailto:michailbaldin@gmail.com)  
+🐱 [GitHub](https://github.com/MichailBaldin)

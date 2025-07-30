@@ -1,10 +1,48 @@
 ---
 layout: post
-title: You're up and running!
+title: Начинаю пет-проект - высоконагруженный онлайн магазин на Go
+tags: [go, пет-проект, онлайн-магазин, highload]
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+# Новый пет-проект
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Решил создать пет-проект, на котором буду пробовать и исследовать актуальный стек технологий для высоконагруженных систем.
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
+## Идея проекта
+
+**Высоконагруженный онлайн магазин на Go**
+
+Концепция первого MVP:
+- Покупатели и их управление
+- Товары, категории, корзина
+- Заказы и платежи
+
+## День первый - план
+
+Договариваюсь с собой: каждое изменение должно **запускаться**. Разрабатываю через **TDD**.
+
+### Сегодняшние задачи:
+
+**1. Базовый сервис на net/http**
+- Ручка создания пользователя
+- Ручка создания товара в каталоге
+
+**2. Чистая архитектура (слои):**
+- `exchange` - API уровень
+- `usecases` - бизнес-логика  
+- `repository` - работа с БД
+
+**3. Инфраструктура:**
+- Dockerfile для сервиса
+- docker-compose с PostgreSQL
+
+**4. Тестирование:**
+- Сервис для генерации нагрузки
+- Отправка рандомных данных на API
+
+### Принципы разработки:
+- TDD с самого начала
+- Чистый код и четкое разделение слоев
+- Каждый коммит должен быть рабочим
+
+---
