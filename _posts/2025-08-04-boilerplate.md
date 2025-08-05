@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Микросервисная архитектура онлайн-магазина: user-service
+title: Микросервисная архитектура онлайн-магазина: boilerplate
 date: 2025-08-04
-tags: [go, микросервисы, онлайн-магазин, highload, ddd, api-gateway, user-service]
+tags: [go, микросервисы, онлайн-магазин, highload, ddd, api-gateway, boilerplate]
 ---
 
 # Начинаем разработку user-service
